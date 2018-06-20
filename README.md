@@ -1,11 +1,11 @@
 # SudokuSolverAI
-Demonstrates an "artificially intelligent" recursive backtracking algorithm with constraint propagation by solving any valid Sudoku puzzle in an average time of less than .1 seconds.
+Demonstrates an 'artificially intelligent' recursive backtracking algorithm with constraint propagation by solving any valid Sudoku puzzle in an average time of less than .1 seconds.
 
 ## Usage
-From your terminal:
-1. Compile with "g++ sud_solve.cpp -o sudoku.exe" (or equivalent).
-2. Run with ./sudoku.exe (or simply "sudoku" in windows).
-3. Enter sudoku puzzle name as prompted (Ex: "puzz_hard.txt", "more_puzz/extremelydifficult.txt")
+From the command line:
+1. Compile with `g++ sud_solve.cpp -o sudoku.exe` (or equivalent).
+2. Run with `./sudoku.exe` (or simply `sudoku` in windows).
+3. Enter sudoku puzzle name as prompted (Ex: `puzz_hard.txt`, or `more_puzz/extremelydifficult.txt`)
 
 Note: Custom puzzles may be added - see existing puzzles for necessary format.
 
