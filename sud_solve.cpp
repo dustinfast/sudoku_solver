@@ -12,7 +12,7 @@ using namespace std;
 const string WELCOME_MSG =
 "\nConstraint Satisfaction Demonstration\n"
 "-------------------------------------------------------------\n"
-"Solves thegiven Sudoku puzzle via recursive backtracking with constraint propagation.\n\n";
+"Solves the given Sudoku puzzle via recursive backtracking with constraint propagation.\n";
 
 int main()
 {
@@ -22,7 +22,7 @@ int main()
 	while (strInput == "")
 	{
 		cout << WELCOME_MSG;
-		cout << "Enter a Sudoku CSV file ('x' to exit): ";
+		cout << "Enter a Sudoku file ('x' to exit): ";
 		cin >> strInput; 
 		if (strInput != "x")
 		{
